@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JavaScript Lab Assignment</h1>
+    
+    <h2>Variables, Functions, Conditions, and Loops</h2>
+    <button onclick="generateTable(5)">Generate Table</button>
+    <div id="tableContainer"></div>
+
+    <h2>Pop-up Boxes</h2>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="confirmDelete()">Confirm Delete</button>
+    <button onclick="getUserInput()">Get User Input</button>
+    <p id="userInput"></p>
+
+    <h2>Event Handling & DOM Manipulation</h2>
+    <button id="changeText">Change Text</button>
+    <p id="text">Original Text</p>
+    <div id="hoverElement">Hover over me</div>
+
+    <h2>Dynamic List</h2>
+    <input type="text" id="itemInput">
+    <button onclick="addItem()">Add Item</button>
+    <ul id="itemList"></ul>
+
+    <h2>Forms & Validation</h2>
+    <form onsubmit="return validateForm()">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>JavaScript Objects & AJAX</h2>
+    <button onclick="showDateTime()">Show Date & Time</button>
+    <p id="dateTime"></p>
+    <button onclick="generateRandom()">Generate Random Number</button>
+    <p id="randomNumber"></p>
+    <button onclick="fetchWeather()">Fetch Weather</button>
+    <p id="weather"></p>
+
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+
+    <h2>Simple Chatbot</h2>
+    <input type="text" id="chatInput">
+    <button onclick="chatbot()">Send</button>
+    <p id="chatResponse"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
